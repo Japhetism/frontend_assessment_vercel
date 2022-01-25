@@ -1,0 +1,1 @@
+export { RightSectionContent } from "./RightSectionContent";

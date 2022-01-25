@@ -1,0 +1,295 @@
+/* default layout component styles */
+.flex-container {
+  display: flex;
+  border: 1px solid #eaeaea;
+}
+
+/* section component styles */
+.flex-container > div {
+  padding: 20px;
+  width: 50%;
+}
+
+.section-left {
+  background-color: #111111;
+  border-right: 1px solid #eaeaea;
+}
+
+.section-right {
+  background-color: #000000;
+}
+
+.vercel-text.h1 {
+  font-size: 3rem;
+  letter-spacing: -.066875rem;
+}
+
+.vercel-text.w-600 {
+  font-weight: 600;
+}
+
+.vercel-text.vercel-text-no-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1.signup_title {
+  line-height: 1.2 !important;
+  margin-top: 20px !important;
+  margin-bottom: 50px !important;
+  color: #FFF !important; 
+}
+
+.vercel-text {
+  font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+.signup_button_content {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.signup_button_icon {
+  margin-right: 8px;
+}
+
+.custom_github_button {
+  color: #FFF;
+  background: #24292e;
+  border-color: #24292e;
+}
+
+.custom_gitlab_button {
+  color: #FFF;
+  background: #6B4FBB;
+  border-color: #6B4FBB;
+}
+
+.custom_bitbucket_button {
+  color: #FFF;
+  background: #0052CC;
+  border-color: #0052CC;
+}
+
+.button_large {
+  height: 48px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.button_signup_button {
+  border-radius: 5px;
+  border: 1px solid;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+  transition-duration: 15s;
+  transition-timing-function: ease;
+}
+
+.button_signup_button_base {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button_signup_reset {
+  outline: none;
+  margin: 0;
+  box-sizing: border-box;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  appearance: auto;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: center;
+  min-width: 100%;
+  max-width: 100%;
+  margin-top: 10px !important;
+}
+
+.signup-right {
+  padding-top: 48px;
+  max-width: 360px;
+  margin-left: 60px;
+}
+
+.signup_left {
+  padding-top: 40px;
+  margin-left: 160px;
+  font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+.email_link_text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.email_link {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: #0070f3;
+}
+
+.terms_privacy {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.vercel_terms_text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.terms_privacy_text {
+  max-width: 35ch;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.complex_link {
+  color: #0070f3;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.terms_privacy_link {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: #FFF;
+  align-items: center;
+  display: inline-flex;
+}
+
+.vercel_complex {
+  margin-bottom: 25px;
+}
+
+.vercel_account {
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
+
+hr.vercel_hr {
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+  margin: -1px 0 0;
+}
+
+.vercel_culture_container {
+  display: flex;
+  margin-bottom: -10px;
+}
+
+.vercel_serving_companies_container {
+  display: flex;
+}
+
+.vercel_serving_companies_item {
+  flex: 1;
+}
+
+.vercel_culture_item {
+  flex: 1;
+}
+
+.vercel_culture_item:first-child {
+  max-width: 40px;
+} 
+
+.vercel_culture_svg {
+  margin-top: 27px;
+}
+
+.vercel_culture_item > h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: -.029375rem;
+  margin-bottom: -5px;
+  color: #FFF;
+}
+
+.vercel_culture_item > p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.culture_item_deploy {
+  max-width: 28ch;
+}
+
+.culture_item_preview {
+  max-width: 35ch;
+}
+
+.vercel_logo {
+  margin-bottom: 20px;
+}
+
+.vercel_serving_companies {
+  margin-top: 50px;
+}
+
+.vercel_serving_companies_content {
+  margin-top: 15px;
+}
+
+.vercel_serving_companies > small {
+  font-size: 0.875rem;
+  letter-spacing: 0.1rem;
+  margin-top: 0;
+  padding-left: 0;
+  color: #666;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  size: 1rem;
+}
+
+.vercel_serving_companies_icon_width120 {
+  max-width: 120px;
+}
+
+.vercel_serving_companies_icon_width50 {
+  max-width: 50px;
+}
+
+.vercel_serving_companies_icon_width140 {
+  max-width: 140px;
+}
+
+.vercel_serving_companies_icon_width200 {
+  max-width: 200px;
+}
+
+.vercel_serving_companies_icon_width200x {
+  max-width: 150px;
+}
+
+.vercel_serving_companies_icon {
+  filter: invert(.5);
+}
+
+.white_color {
+  color: #FFF;
+}
